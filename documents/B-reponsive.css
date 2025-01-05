@@ -1,0 +1,24 @@
+@media screen and (max-width: 900px){
+    .bar_box{
+        display: block !important;
+    }
+    header .navbar{
+        display: none;
+    }
+    header .logo_side{
+        flex: 0 0 80%;
+    }
+    header .logIn{
+        flex: 0 0 20%;
+    }
+}
+@media screen and (max-width: 500px){
+    header .container .logIn .btn{
+        display: none;
+    }
+}
+@media screen and (max-width: 400px){
+    header .container .logo_call :where(svg,p){
+        display: none;
+    }
+}

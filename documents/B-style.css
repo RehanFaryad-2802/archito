@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&family=Inter&family=Poppins:wght@500&family=Sarabun:ital,wght@1,500&display=swap');
+@import url(B-reponsive.css);
+@import url(B-global.css);
+:root{
+    /* colors controler */
+    --main-color: #004AE2;
+    --heading-main-color: #000F2D;
+    --heading-color: #000F2D;
+    --para-color: #004AE2;
+    --footer-color: #000F2D;
+
+    /* size controler */
+    --para-size: 1rem;
+    --para-min-size: calc(1rem - 3px);
+    --heading-main-size: 2rem;
+    --heading-size: calc(2rem - 8px);
+    --heading-min-size: 1rem;
+
+    /* margin controler */
+    --container-t-margin: 4rem;
+    --content-t-margin: 2rem;
+}
+.o-hide{
+    overflow: hidden;
+}
+.pointer{
+    cursor: pointer;
+}
+.mobile_content {
+    background-color: #fff;
+    width: 80%;
+    height: 100vh;
+    margin: -30px 0 0 auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0 0 0 auto;
+    transform: translateY(-100%);
+    z-index: 999;
+}
+.bar_box {
+    display: none;
+    line-height: 2.7;
+    margin: 0 18px;
+}
+.mobile_content nav ol {
+    line-height: 4;
+    padding: 10px 30px;
+}
+.mobile_content nav ol li:first-child{
+    text-align: end;
+}
+.mobile_content nav ol li a {
+    color: #000;
+    font-size: 16px;
+    font-weight: 400;
+}
+.main_header > svg{
+    display: none;
+}
+.main_header .bar_box{
+    text-align: end;
+    margin-right: 1rem;
+    display: none;
+}
+.main_header .bar_box i{
+    font-size: 1.5rem;
+}
+
+
+header .logo_side .logo h1 a{
+    color: var(--main-color);
+    font-size: var(--heading-main-size);
+}
+header .container .btn button{
+    background-color: var(--main-color);
+    font-size: var(--para-size);
+    padding: 16px 40px;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+header .logo_side p{
+    color: var(--main-color);
+    font-size: var(--para-size);
+}
+header .navbar ol li a{
+    color: black;
+}
+.headline .search .input{
+    box-shadow: 10px 0px 100px 0px #00000052;
+    display: inline-flex;
+    overflow: hidden;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 445px;
+}
+.headline .search input{
+    border: none;
+    outline: none;
+    width: 100%;
+}
+.headline .search input::placeholder{
+    color: var(--main-color);
+    font-weight: 300;
+}
+.headline .search span{
+    background-color: var(--main-color);
+}
+.headline .left .heading h1{
+    font-size: 4rem;
+    max-width: 538px;
+    line-height: 82px;
+}
